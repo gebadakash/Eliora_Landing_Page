@@ -1,0 +1,28 @@
+.footer {
+    padding-bottom: 10px;
+}
+
+
+.footer-btm {
+    border-top: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.footer .copyright a {
+    font-weight: 600;
+}
+
+.footer-socials li a {
+    margin-left: 15px;
+}
+
+
+@media (max-width: 400px){
+.widget {
+    margin-bottom: 30px;
+    padding-bottom: 0px;
+    }
+
+}
+
+
+

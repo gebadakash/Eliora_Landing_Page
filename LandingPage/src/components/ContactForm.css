@@ -1,0 +1,24 @@
+.contact-form-wrap .form-group .form-control {
+    background: #f5f8f9;
+    height: 48px;
+    border: 1px solid #EEF2F6;
+    box-shadow: none;
+    width: 100%;
+}
+
+.contact-form-wrap .form-group {
+    padding-bottom: 15px;
+    margin: 0px;
+  }
+  
+  .contact-form-wrap .form-group-2 textarea {
+    background: #f5f8f9;
+    height: 135px;
+    border: 1px solid #EEF2F6;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .address-block li {
+    margin-bottom: 10px;
+}

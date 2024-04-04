@@ -1,0 +1,42 @@
+.bg-about {
+    position: absolute;
+    content: "";
+    left: 0px;
+    top: 0px;
+    width: 45%;
+    min-height: 650px;
+    background: url(../../Images/home5.jpg) no-repeat;
+    background-size: cover;
+}
+
+.about-content {
+    padding: 20px 0px 0px 10px;
+}
+
+@media (max-width: 400px){
+.bg-about {
+    display: none;
+}
+}
+@media (max-width: 768px){
+.bg-about {
+    display: none;
+}
+
+}
+
+@media (max-width: 992px){
+.bg-about {
+    display: none;
+}
+
+}
+
+@media (max-width: 992px){
+section.about {
+    border: 1px solid #dee2e6;
+    border-left: 0;
+    border-right: 0;
+}
+
+}

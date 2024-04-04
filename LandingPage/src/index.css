@@ -1,0 +1,143 @@
+/**
+ * WEBSITE: https://themefisher.com
+ * TWITTER: https://twitter.com/themefisher
+ * FACEBOOK: https://www.facebook.com/themefisher
+ * GITHUB: https://github.com/themefisher/
+ */
+
+/*=== MEDIA QUERY ===*/
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@400;500;600;700&family=Montserrat:wght@400;700&family=Poppins:wght@300;400;600;700&display=swap");
+html {
+  overflow-x: hidden;
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Hind", serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.65);
+}
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #242424;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+  /* text-shadow: 1px 5px 5px black;  */
+}
+
+h2, .h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 42px;
+}
+
+h3, .h3 {
+  font-size: 1.5rem;
+}
+
+h4, .h4 {
+  font-size: 1.3rem;
+  line-height: 30px;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
+}
+
+p {
+  line-height: 30px;
+}
+
+.navbar-toggle .icon-bar {
+  background: primary-color;
+}
+
+.btn-round-full {
+  border-radius: 50px;
+}
+
+.btn-main, .btn-transparent, .btn-small {
+  background: #f75757;
+  color: #fff;
+  transition: all 0.2s ease;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  padding: 1rem 2.5rem .8rem;
+  text-transform: uppercase;
+  border-radius: 0;
+  transition: 0.3s;
+}
+
+.btn-main:hover, .btn-transparent:hover, .btn-small:hover {
+  background: #f52626;
+  color: #fff;
+}
+
+a:focus, a:hover {
+  color: #f75757;
+  text-decoration: none;
+}
+
+.btn-round-full {
+  border-radius: 50px;
+}
+
+
+.btn-solid-border {
+  border: 2px solid #f75757;
+  background: transparent;
+  color: #242424;
+}
+
+.section-title {
+  margin-bottom: 70px;
+}
+
+.text-color {
+  color: #f75757;
+}
+
+
+.content-title {
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.section {
+  padding: 100px 0;
+}
+
+a {
+  color: #242424;
+  text-decoration: none;
+}
+
+input[type="email"], input[type="password"], input[type="text"], input[type="tel"] {
+  box-shadow: none;
+  height: 45px;
+  outline: none;
+  font-size: 14px;
+}
+
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+
+
+
