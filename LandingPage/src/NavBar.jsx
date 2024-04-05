@@ -4,6 +4,8 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
+import elioralogo from "../Images/elioralogo.png";
+
 
 const NavBar = () => {
   const menuItems = [
@@ -62,7 +64,7 @@ const NavBar = () => {
                 >
                   <img
                     className="navBarImage"
-                    src="images/elioralogo.png"
+                    src={elioralogo}
                     alt="Logo"
                   />
                 </a>

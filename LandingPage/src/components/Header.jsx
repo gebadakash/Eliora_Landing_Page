@@ -1,5 +1,5 @@
 import "./Header.css";
-
+import aboutImage from "../../Images/abt.png";
 
 const Header = () => {
   return (
@@ -17,7 +17,7 @@ const Header = () => {
           </div>
 
           <div className="col-lg-6 text-center text-lg-end">
-                <img className="img-fluid animated zoomIn" style={{maxWidth:"90%"}} src="Images/abt.png" alt="" />
+                <img className="img-fluid animated zoomIn" style={{maxWidth:"90%"}} src={aboutImage} alt="" />
             </div>
 
 
