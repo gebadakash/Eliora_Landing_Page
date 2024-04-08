@@ -1,5 +1,5 @@
 import "./Header.css";
-import aboutImage from "../../Images/abt.png";
+import aboutImage from "../../public/Images/abt.png";
 
 const Header = () => {
   return (

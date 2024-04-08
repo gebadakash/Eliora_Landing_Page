@@ -1,4 +1,4 @@
-import whatsappLogo from "../../Images/WhatsApp.png";
+import whatsappLogo from "../../public/Images/WhatsApp.png";
 
 const WhatsApp = () => {
   return (

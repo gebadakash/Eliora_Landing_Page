@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import { MdOutlineMailOutline } from "react-icons/md";
-import elioralogo from "../Images/elioralogo.png";
+import elioralogo from "../public/Images/elioralogo.png";
 
 
 const NavBar = () => {
@@ -78,7 +78,7 @@ const NavBar = () => {
                   aria-expanded="false"
                   aria-label="Toggle navigation"
                 >
-                  <FaBars />
+                  <FaBars className="text-white"/>
                 </button>
                 {/* Navbar Collapse */}
                 <div
